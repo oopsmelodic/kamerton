@@ -1,0 +1,110 @@
+/* 
+    Document   : auth
+    Created on : 01.12.2014, 12:38:51
+    Author     : oOpsm_000
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    background-image: url(/img/bg1.jpg);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+    overflow: hidden;
+}
+.logo-font{
+    cursor: default;
+    width: 600px;
+}
+.logo-font main{
+    transition: 2s;
+	transform-style: preserve-3d;
+    opacity: 0.9;
+    margin: 20px 20px 0; 
+    font-family: Jura ;
+    line-height: 1em;
+    color: #ffffff;
+    font-size: 45px;
+    text-shadow:0px 0px 0 rgb(154,154,154),1px 1px 0 rgb(111,111,111),2px 2px 0 rgb(69,69,69),3px 3px 0 rgb(26,26,26),4px 4px 0 rgb(-16,-16,-16),5px 5px 0 rgb(-59,-59,-59), 6px 6px 0 rgb(-101,-101,-101),7px 7px 6px rgba(0,0,0,0.55),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+.logo-font span{
+    color: #FF002B;
+}
+.logo-font p{
+    font-size: 20px;
+    opacity: 0.7;
+    font-style: initial;
+    color: #ffffff;
+    margin-left:50px;
+}
+.regform{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;	
+    padding: 25px;
+    margin: auto;
+    overflow: hidden;  
+    color:#fff;
+}    
+.regform input{
+    color: #fff;
+}
+/*.regform a{
+    color: rgba(229, 229, 233, 0.8);
+    text-decoration: underline;
+}
+.regform a:hover{
+    opacity: 1;
+}
+.regform label,.regform h4{
+    color:#f1f1f1;
+}
+.regform input::-webkit-input-placeholder{
+    color:#f1f1f1;
+    opacity: 0.9;
+}
+.regform input::-moz-placeholder{
+    color:#f1f1f1;
+}
+.regform input:-moz-placeholder{
+    color:#f1f1f1;
+}
+.regform input:-ms-input-placeholder{
+    color:#f1f1f1;
+}
+.regform input[type="text"],.regform  input[type="password"],.regform  input[type="email"]
+{
+    background: transparent;
+    text-shadow: #000 1px 0px, #000 1px 1px, #000 0px 1px, #000 -1px 1px, #000 -1px 0px, #000 -1px -1px, #000 0px -1px, #000 1px -1px;
+    border: 0px solid rgba(241, 241, 241, 1);  
+    /*outline: 4px solid rgba(241, 241, 241, 0.6);
+    color:#ffffff;
+    font-size: large;
+    font-weight: 550;
+}
+.regform button{
+    background: transparent;
+    border: 1px solid #f1f1f1;
+    color: #f1f1f1;
+}*/
+.newuser{
+    display: none;
+    height: 390px;;
+}
+canvas{
+    display: block;
+    position: absolute;
+}
+#console{
+    position: absolute;
+    bottom: 5px;
+    background-color: transparent;
+    display: none;
+}

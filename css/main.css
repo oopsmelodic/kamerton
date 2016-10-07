@@ -1,0 +1,199 @@
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+
+    padding-right: 3px!important;
+    padding-left: 3px!important;
+}  
+
+
+.shadow-block{
+    background-color: #fff;
+    padding: 1px 5px 10px 10px;
+    margin-top: 5px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    /* border-radius: 2px; */
+    border: 0;        
+}
+.shadow-block .footer{
+    border-top: 1px solid #e2e2e2;
+    padding: 5px;
+    font-size: 15px;
+}
+.shadow-block .footer span i{
+    font-size: 17px;
+}
+.shadow-block .footer span{
+    opacity: .7;
+    cursor: pointer;
+}
+#find_Text{
+    margin-top: 6px;    
+}
+.shadow-block .footer span a{
+    color: #000!important;
+}
+.shadow-block .footer span:hover{
+    opacity: 1;
+}
+.shadow-block .footer .public_url{
+    float: right;
+}
+.shadow-block .footer .public_url .checkbox{
+    margin-top: 0px;
+}
+#translate{
+    margin-top: 9px;
+}
+.shadow-block .nav.nav-tabs{
+    background: transparent;
+}
+
+.shadow-block .nav.nav-tabs a{
+    color:#000!important;
+}
+
+.filedata, .filedataAll {
+    height: 100%;
+    overflow: auto;
+} 
+.combobox{
+    margin-top: 6px;
+
+}
+.tasks li{
+    padding: 5px
+}
+.glass-close{
+  background-color: rgba(0, 0, 0, 0.66);
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 0px;
+  height: 100%;   
+  display: none;
+}
+.week{
+    display: none;
+}
+.week .checkbox label{
+    margin-left: 13px;
+}
+.snoop{
+    background: url('http://media.giphy.com/media/WrgtbRE1zywNy/giphy.gif') 100%;
+    background-size:cover;
+}
+.btn{
+   margin: 3px 1px;
+}
+.search{
+/*    position: absolute;
+    z-index: 2000;
+    top: 5px;
+    width: 200px;
+    margin-left: 20px;*/
+    float: left;
+    margin-top: 5px;
+    margin-left: 5%;
+    width: 50%;
+}
+.navbar .search input{
+    color: #fff;
+}
+.search .tt-menu{
+    position: absolute;
+    top: 125px;
+    left: -34%;
+    z-index: 3000;
+    display: none;
+    /*max-width: 80%;*/
+}
+.search .tt-suggestion:hover{
+    /*box-shadow: 0 1px 2px 0 rgba(0,0,0,.2),0 3px 8px 0 rgba(0,0,0,.19);*/
+    cursor: pointer;
+    border-bottom:2px solid #009688;
+}
+.search #preview{
+    display: none;
+}
+.search .tt-suggestion .play_btn{
+    margin-right: 7px;
+    z-index: 999;
+}
+.filedata .msg{
+    position:relative;
+    /*width:55%;*/
+    padding: 10px;  
+    margin:5px 0; 
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    background-color:#E1E1E1;
+    color:#000;      
+     -webkit-transition: background-color 0.5s ease-out;
+     -moz-transition: background-color 0.5s ease-out;
+     -o-transition: background-color 0.5s ease-out;
+     transition: background-color 0.5s ease-out;
+}
+ .filedata .speaker-2{
+    float:left;
+}
+ .filedata .speaker-1{
+    text-align:left;  
+    position:relative;
+    float:right;
+    background-color:#4679BD;
+    color:#fff;         
+}
+ .filedata .speaker-2:hover{
+    background-color:#B5B5B5;
+}
+ .filedata .speaker-1:hover{
+    background-color:#5E9FF7;
+}
+ .filedata span, .filedataAll span{
+    position:relative;
+    padding: 1px;
+}
+ .filedata .speaker-1 span:hover{
+    outline:1px dashed #fff;
+}
+ .filedata .speaker-2 span:hover, .filedata .speaker-0 span:hover{
+    outline:1px dashed #000;
+}
+.filedata .msg.success, .filedataAll record.success{
+    background-color: #5CB85C;
+}
+ .filedata input, .filedataAll input{
+    font-size:13.5px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    border:none;    
+}
+
+.filedataAll span:hover{
+    outline:1px dashed #000;
+}
+
+.vjs-default-skin .vjs-play-progress {
+  background: #009688;
+}
+
+.vjs-default-skin .vjs-volume-level {
+  background: #009688;
+}
+
+#progress-bar{
+    position: absolute;
+    top: 49%;
+    z-index: 10;
+    width: 90%;    
+    left: 5%;
+}
+.nav>li.active>a{
+    font-weight: 600;
+}

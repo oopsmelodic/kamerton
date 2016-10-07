@@ -1,0 +1,28 @@
+html {
+height:265px;
+width:520px;
+}
+.shadow{
+box-shadow: 0 0 7px rgba(0,0,0,0.5); /* Параметры тени */
+padding: 10px;
+}
+
+.block{
+background-color: rgba(221, 221, 221, 0.5);
+margin:10px;
+border-radius: 6px;
+}
+
+.brd{
+padding-bottom:5px; 
+border-bottom: 1px solid silver;
+}
+
+.inlineBlocks
+{
+width:240px; 
+display:inline-block;
+padding:5px;
+margin:5px;
+vertical-align:top;
+}

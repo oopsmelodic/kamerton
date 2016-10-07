@@ -1,0 +1,90 @@
+/* 
+    Document   : auth
+    Created on : 01.12.2014, 12:38:51
+    Author     : oOpsm_000
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    background-image: url(/img/bg1.jpg);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.carret{
+    text-align: center;
+    margin: 0 2% 0 2%;
+}
+.carret i{
+    font-size: 150px;
+    margin: 0 auto;
+    color: rgba(242, 242, 242, 0.88);    
+}
+.carret p {
+    font-style: italic;
+    font-size: 13px;    
+}
+.item {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */      
+    cursor: default;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: rgba(97, 97, 97, 0.27);
+    /* border: 1px solid #ddd; */
+    /* border-radius: 4px; */
+    -webkit-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+    color: rgba(242, 242, 242, 0.88); 
+}
+.slider{
+    width: 40%;
+    height: 30%;
+    margin-bottom: 30px;
+}
+.item_slide{
+    margin: 3px;
+}
+.item_slide img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.more-info{
+    padding: 3%;
+}
+.carret .item-list{
+    height: 330px;
+}
+.carret .item:hover{
+    background-color: rgba(97, 97, 97, 0.93);
+}
+.carret .item .caption {
+    padding: 9px;
+    color: rgba(242, 242, 242, 0.88); 
+}
+.header{
+    color: #f1f1f1;
+    border-bottom: 5px solid #009688;
+    /*width: 60%;*/
+    margin-bottom: 5%;
+}
+.footer{
+    margin-top: 20px;
+    font-size: 11px;
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+    color: rgba(255, 255, 255, 0.51);
+    text-align: center;
+}
